@@ -1,0 +1,21 @@
+{
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 120000,
+  "viewportWidth": 1300,
+  "viewportHeight": 900,
+  "chromeWebSecurity": false,
+  "env": {
+    "baseUrl": "https://www.jet2holidays.com"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
+}
